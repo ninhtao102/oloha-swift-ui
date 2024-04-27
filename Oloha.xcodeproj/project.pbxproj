@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48EA4AF62BDD02FE00111D06 /* OlohaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4AF52BDD02FE00111D06 /* OlohaApp.swift */; };
+		48EA4AF82BDD02FE00111D06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4AF72BDD02FE00111D06 /* ContentView.swift */; };
+		48EA4AFA2BDD02FF00111D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EA4AF92BDD02FF00111D06 /* Assets.xcassets */; };
+		48EA4AFD2BDD02FF00111D06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EA4AFC2BDD02FF00111D06 /* Preview Assets.xcassets */; };
+		48EA4B072BDD02FF00111D06 /* OlohaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B062BDD02FF00111D06 /* OlohaTests.swift */; };
+		48EA4B112BDD02FF00111D06 /* OlohaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B102BDD02FF00111D06 /* OlohaUITests.swift */; };
+		48EA4B132BDD02FF00111D06 /* OlohaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B122BDD02FF00111D06 /* OlohaUITestsLaunchTests.swift */; };
+		48EA4B292BDD706200111D06 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B282BDD706200111D06 /* OnboardingView.swift */; };
+		48EA4B2B2BDD70AF00111D06 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B2A2BDD70AF00111D06 /* WelcomeView.swift */; };
+		48EA4B2D2BDD70DD00111D06 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B2C2BDD70DD00111D06 /* SignInView.swift */; };
+		48EA4B2F2BDD710F00111D06 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B2E2BDD710F00111D06 /* SignUpView.swift */; };
+		48EA4B312BDD71BB00111D06 /* TravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B302BDD71BB00111D06 /* TravelView.swift */; };
+		48EA4B332BDD71FB00111D06 /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B322BDD71FB00111D06 /* DestinationView.swift */; };
+		48EA4B352BDD723D00111D06 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B342BDD723D00111D06 /* EventView.swift */; };
+		48EA4B372BDD725000111D06 /* LocalguidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B362BDD725000111D06 /* LocalguidesView.swift */; };
+		48EA4B392BDD725B00111D06 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA4B382BDD725B00111D06 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48EA4B032BDD02FF00111D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EA4AEA2BDD02FE00111D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EA4AF12BDD02FE00111D06;
+			remoteInfo = Oloha;
+		};
+		48EA4B0D2BDD02FF00111D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48EA4AEA2BDD02FE00111D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48EA4AF12BDD02FE00111D06;
+			remoteInfo = Oloha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48EA4AF22BDD02FE00111D06 /* Oloha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oloha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EA4AF52BDD02FE00111D06 /* OlohaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlohaApp.swift; sourceTree = "<group>"; };
+		48EA4AF72BDD02FE00111D06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48EA4AF92BDD02FF00111D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48EA4AFC2BDD02FF00111D06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48EA4B022BDD02FF00111D06 /* OlohaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlohaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EA4B062BDD02FF00111D06 /* OlohaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlohaTests.swift; sourceTree = "<group>"; };
+		48EA4B0C2BDD02FF00111D06 /* OlohaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlohaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EA4B102BDD02FF00111D06 /* OlohaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlohaUITests.swift; sourceTree = "<group>"; };
+		48EA4B122BDD02FF00111D06 /* OlohaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlohaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48EA4B282BDD706200111D06 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		48EA4B2A2BDD70AF00111D06 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		48EA4B2C2BDD70DD00111D06 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		48EA4B2E2BDD710F00111D06 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		48EA4B302BDD71BB00111D06 /* TravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelView.swift; sourceTree = "<group>"; };
+		48EA4B322BDD71FB00111D06 /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		48EA4B342BDD723D00111D06 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		48EA4B362BDD725000111D06 /* LocalguidesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalguidesView.swift; sourceTree = "<group>"; };
+		48EA4B382BDD725B00111D06 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48EA4AEF2BDD02FE00111D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EA4AFF2BDD02FF00111D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EA4B092BDD02FF00111D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48EA4AE92BDD02FE00111D06 = {
+			isa = PBXGroup;
+			children = (
+				48EA4AF42BDD02FE00111D06 /* Oloha */,
+				48EA4B052BDD02FF00111D06 /* OlohaTests */,
+				48EA4B0F2BDD02FF00111D06 /* OlohaUITests */,
+				48EA4AF32BDD02FE00111D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48EA4AF32BDD02FE00111D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EA4AF22BDD02FE00111D06 /* Oloha.app */,
+				48EA4B022BDD02FF00111D06 /* OlohaTests.xctest */,
+				48EA4B0C2BDD02FF00111D06 /* OlohaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48EA4AF42BDD02FE00111D06 /* Oloha */ = {
+			isa = PBXGroup;
+			children = (
+				48EA4AF52BDD02FE00111D06 /* OlohaApp.swift */,
+				48EA4B272BDD68A400111D06 /* Helpers */,
+				48EA4B262BDD689B00111D06 /* Resources */,
+				48EA4B252BDD67FA00111D06 /* ViewModels */,
+				48EA4B232BDD67DC00111D06 /* Views */,
+				48EA4B242BDD67E800111D06 /* Models */,
+				48EA4AF92BDD02FF00111D06 /* Assets.xcassets */,
+				48EA4AFB2BDD02FF00111D06 /* Preview Content */,
+			);
+			path = Oloha;
+			sourceTree = "<group>";
+		};
+		48EA4AFB2BDD02FF00111D06 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48EA4AFC2BDD02FF00111D06 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48EA4B052BDD02FF00111D06 /* OlohaTests */ = {
+			isa = PBXGroup;
+			children = (
+				48EA4B062BDD02FF00111D06 /* OlohaTests.swift */,
+			);
+			path = OlohaTests;
+			sourceTree = "<group>";
+		};
+		48EA4B0F2BDD02FF00111D06 /* OlohaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48EA4B102BDD02FF00111D06 /* OlohaUITests.swift */,
+				48EA4B122BDD02FF00111D06 /* OlohaUITestsLaunchTests.swift */,
+			);
+			path = OlohaUITests;
+			sourceTree = "<group>";
+		};
+		48EA4B232BDD67DC00111D06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48EA4AF72BDD02FE00111D06 /* ContentView.swift */,
+				48EA4B282BDD706200111D06 /* OnboardingView.swift */,
+				48EA4B2A2BDD70AF00111D06 /* WelcomeView.swift */,
+				48EA4B302BDD71BB00111D06 /* TravelView.swift */,
+				48EA4B322BDD71FB00111D06 /* DestinationView.swift */,
+				48EA4B342BDD723D00111D06 /* EventView.swift */,
+				48EA4B362BDD725000111D06 /* LocalguidesView.swift */,
+				48EA4B382BDD725B00111D06 /* ProfileView.swift */,
+				48EA4B2E2BDD710F00111D06 /* SignUpView.swift */,
+				48EA4B2C2BDD70DD00111D06 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48EA4B242BDD67E800111D06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48EA4B252BDD67FA00111D06 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		48EA4B262BDD689B00111D06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48EA4B272BDD68A400111D06 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48EA4AF12BDD02FE00111D06 /* Oloha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EA4B162BDD02FF00111D06 /* Build configuration list for PBXNativeTarget "Oloha" */;
+			buildPhases = (
+				48EA4AEE2BDD02FE00111D06 /* Sources */,
+				48EA4AEF2BDD02FE00111D06 /* Frameworks */,
+				48EA4AF02BDD02FE00111D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oloha;
+			productName = Oloha;
+			productReference = 48EA4AF22BDD02FE00111D06 /* Oloha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48EA4B012BDD02FF00111D06 /* OlohaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EA4B192BDD02FF00111D06 /* Build configuration list for PBXNativeTarget "OlohaTests" */;
+			buildPhases = (
+				48EA4AFE2BDD02FF00111D06 /* Sources */,
+				48EA4AFF2BDD02FF00111D06 /* Frameworks */,
+				48EA4B002BDD02FF00111D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EA4B042BDD02FF00111D06 /* PBXTargetDependency */,
+			);
+			name = OlohaTests;
+			productName = OlohaTests;
+			productReference = 48EA4B022BDD02FF00111D06 /* OlohaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48EA4B0B2BDD02FF00111D06 /* OlohaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48EA4B1C2BDD02FF00111D06 /* Build configuration list for PBXNativeTarget "OlohaUITests" */;
+			buildPhases = (
+				48EA4B082BDD02FF00111D06 /* Sources */,
+				48EA4B092BDD02FF00111D06 /* Frameworks */,
+				48EA4B0A2BDD02FF00111D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48EA4B0E2BDD02FF00111D06 /* PBXTargetDependency */,
+			);
+			name = OlohaUITests;
+			productName = OlohaUITests;
+			productReference = 48EA4B0C2BDD02FF00111D06 /* OlohaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48EA4AEA2BDD02FE00111D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					48EA4AF12BDD02FE00111D06 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					48EA4B012BDD02FF00111D06 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 48EA4AF12BDD02FE00111D06;
+					};
+					48EA4B0B2BDD02FF00111D06 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 48EA4AF12BDD02FE00111D06;
+					};
+				};
+			};
+			buildConfigurationList = 48EA4AED2BDD02FE00111D06 /* Build configuration list for PBXProject "Oloha" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48EA4AE92BDD02FE00111D06;
+			productRefGroup = 48EA4AF32BDD02FE00111D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EA4AF12BDD02FE00111D06 /* Oloha */,
+				48EA4B012BDD02FF00111D06 /* OlohaTests */,
+				48EA4B0B2BDD02FF00111D06 /* OlohaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EA4AF02BDD02FE00111D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EA4AFD2BDD02FF00111D06 /* Preview Assets.xcassets in Resources */,
+				48EA4AFA2BDD02FF00111D06 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EA4B002BDD02FF00111D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EA4B0A2BDD02FF00111D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48EA4AEE2BDD02FE00111D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EA4B292BDD706200111D06 /* OnboardingView.swift in Sources */,
+				48EA4B372BDD725000111D06 /* LocalguidesView.swift in Sources */,
+				48EA4AF82BDD02FE00111D06 /* ContentView.swift in Sources */,
+				48EA4B312BDD71BB00111D06 /* TravelView.swift in Sources */,
+				48EA4B352BDD723D00111D06 /* EventView.swift in Sources */,
+				48EA4AF62BDD02FE00111D06 /* OlohaApp.swift in Sources */,
+				48EA4B2B2BDD70AF00111D06 /* WelcomeView.swift in Sources */,
+				48EA4B332BDD71FB00111D06 /* DestinationView.swift in Sources */,
+				48EA4B2F2BDD710F00111D06 /* SignUpView.swift in Sources */,
+				48EA4B392BDD725B00111D06 /* ProfileView.swift in Sources */,
+				48EA4B2D2BDD70DD00111D06 /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EA4AFE2BDD02FF00111D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EA4B072BDD02FF00111D06 /* OlohaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48EA4B082BDD02FF00111D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EA4B132BDD02FF00111D06 /* OlohaUITestsLaunchTests.swift in Sources */,
+				48EA4B112BDD02FF00111D06 /* OlohaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48EA4B042BDD02FF00111D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EA4AF12BDD02FE00111D06 /* Oloha */;
+			targetProxy = 48EA4B032BDD02FF00111D06 /* PBXContainerItemProxy */;
+		};
+		48EA4B0E2BDD02FF00111D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48EA4AF12BDD02FE00111D06 /* Oloha */;
+			targetProxy = 48EA4B0D2BDD02FF00111D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48EA4B142BDD02FF00111D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48EA4B152BDD02FF00111D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48EA4B172BDD02FF00111D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oloha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninhtao.Oloha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48EA4B182BDD02FF00111D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Oloha/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninhtao.Oloha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48EA4B1A2BDD02FF00111D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninhtao.OlohaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oloha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Oloha";
+			};
+			name = Debug;
+		};
+		48EA4B1B2BDD02FF00111D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninhtao.OlohaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oloha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Oloha";
+			};
+			name = Release;
+		};
+		48EA4B1D2BDD02FF00111D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninhtao.OlohaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oloha;
+			};
+			name = Debug;
+		};
+		48EA4B1E2BDD02FF00111D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninhtao.OlohaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Oloha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48EA4AED2BDD02FE00111D06 /* Build configuration list for PBXProject "Oloha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EA4B142BDD02FF00111D06 /* Debug */,
+				48EA4B152BDD02FF00111D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EA4B162BDD02FF00111D06 /* Build configuration list for PBXNativeTarget "Oloha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EA4B172BDD02FF00111D06 /* Debug */,
+				48EA4B182BDD02FF00111D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EA4B192BDD02FF00111D06 /* Build configuration list for PBXNativeTarget "OlohaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EA4B1A2BDD02FF00111D06 /* Debug */,
+				48EA4B1B2BDD02FF00111D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48EA4B1C2BDD02FF00111D06 /* Build configuration list for PBXNativeTarget "OlohaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48EA4B1D2BDD02FF00111D06 /* Debug */,
+				48EA4B1E2BDD02FF00111D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48EA4AEA2BDD02FE00111D06 /* Project object */;
+}
